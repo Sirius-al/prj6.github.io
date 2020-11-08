@@ -1,7 +1,8 @@
 $(function () {
     /* carousel js */
     $('.carousel').carousel({
-        interval: 3000
+      lazyLoad:true,  
+      interval: 3000
     });
 
     /* venobox js */
